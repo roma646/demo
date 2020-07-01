@@ -80,7 +80,7 @@ def seg(name):
     from PIL import Image, ImageFile
 
     ImageFile.LOAD_TRUNCATED_IMAGES = True
-    TRAIN_DIR = Path('instance/uploads/')
+    TRAIN_DIR = Path('static/')
     train_files = sorted(list(TRAIN_DIR.rglob(name)))
     print(train_files)
 
@@ -99,3 +99,4 @@ def seg(name):
     print('СЕТЬ ОТРАБОТАЛА')
     q.save('static/result.jpg')
     return
+seg('picture.jpg')

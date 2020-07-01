@@ -1,4 +1,14 @@
 {% extends "base.html" %}
+<style>
+   .fig {
+    text-align: center; /* Выравнивание по центру */
+   }
+  </style>
+
 {% block content %}
-<h1>Hi, {{user.nickname}}!</h1>
+<h1 class="fig">Hi, {{user.nickname}}!</h1>
+{% endblock %}
+{% block content2 %}
+    <p class="fig">Для сегментации использовалась предобученная сеть deeplabv3_resnet101</p>
+    <p class="fig">Больше информации о данной сети можно найти пройдя по ссылке "Сегментатор"</p>
 {% endblock %}
