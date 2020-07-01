@@ -39,8 +39,6 @@ Tempita==0.5.2
 threadpoolctl==2.1.0
 torch==1.5.1
 torchvision==0.6.1
-ufw==0.36
-unattended-upgrades==0.1
 urllib3==1.25.8
 usb-creator==0.3.7
 virtualenv==20.0.25
