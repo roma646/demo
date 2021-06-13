@@ -38,5 +38,5 @@ Tempita==0.5.2
 threadpoolctl==2.1.0
 torch==1.5.1
 torchvision==0.6.1
-urllib3==1.25.8
+urllib3==1.26.5
 
