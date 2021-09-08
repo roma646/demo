@@ -19,7 +19,7 @@ Flask-OpenID==1.2.5
 Flask-SQLAlchemy==2.4.3
 Flask-WTF==0.14.3
 MyApplication==0.1.0
-Pillow==7.0.0
+Pillow==8.3.2
 PyJWT==1.7.1
 pyparsing==2.4.7
 pyRFC3339==1.1
