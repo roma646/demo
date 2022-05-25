@@ -20,7 +20,7 @@ Flask-SQLAlchemy==2.4.3
 Flask-WTF==0.14.3
 MyApplication==0.1.0
 Pillow==7.0.0
-PyJWT==1.7.1
+PyJWT==2.4.0
 pyparsing==2.4.7
 pyRFC3339==1.1
 python-editor==1.0.4
